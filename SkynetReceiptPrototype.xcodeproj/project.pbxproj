@@ -8,12 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		7F8665661DCD2E4400702AF6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665651DCD2E4400702AF6 /* AppDelegate.swift */; };
-		7F8665681DCD2E4400702AF6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665671DCD2E4400702AF6 /* ViewController.swift */; };
 		7F86656B1DCD2E4400702AF6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8665691DCD2E4400702AF6 /* Main.storyboard */; };
 		7F86656D1DCD2E4400702AF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F86656C1DCD2E4400702AF6 /* Assets.xcassets */; };
 		7F8665701DCD2E4400702AF6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F86656E1DCD2E4400702AF6 /* LaunchScreen.storyboard */; };
 		7F86657B1DCD2E4400702AF6 /* SkynetReceiptPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F86657A1DCD2E4400702AF6 /* SkynetReceiptPrototypeTests.swift */; };
 		7F8665861DCD2E4400702AF6 /* SkynetReceiptPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665851DCD2E4400702AF6 /* SkynetReceiptPrototypeUITests.swift */; };
+		7F86659E1DCD2E8400702AF6 /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8665931DCD2E8400702AF6 /* libZSDK_API.a */; };
+		7F8665A81DCD2EAE00702AF6 /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A31DCD2EAE00702AF6 /* PrinterManager.swift */; };
+		7F8665A91DCD2EAE00702AF6 /* ZPLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A41DCD2EAE00702AF6 /* ZPLHelper.swift */; };
+		7F8665AC1DCD2EAE00702AF6 /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A71DCD2EAE00702AF6 /* YPDrawSignatureView.swift */; };
+		7F8665B21DCD2ED400702AF6 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AD1DCD2ED400702AF6 /* UserData.swift */; };
+		7F8665B31DCD2ED400702AF6 /* RouteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AE1DCD2ED400702AF6 /* RouteObject.swift */; };
+		7F8665B41DCD2ED400702AF6 /* InventoryMGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AF1DCD2ED400702AF6 /* InventoryMGMT.swift */; };
+		7F8665B51DCD2ED400702AF6 /* RetailerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B01DCD2ED400702AF6 /* RetailerObject.swift */; };
+		7F8665B61DCD2ED400702AF6 /* BrandObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B11DCD2ED400702AF6 /* BrandObject.swift */; };
+		7F8665B81DCD2EDF00702AF6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B71DCD2EDF00702AF6 /* Extensions.swift */; };
+		7F8665BA1DCD2F2800702AF6 /* SignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B91DCD2F2800702AF6 /* SignatureView.swift */; };
+		7F8665BC1DCD2FA500702AF6 /* PrototypeRetailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665BB1DCD2FA500702AF6 /* PrototypeRetailer.swift */; };
+		7FE1357D1DCD4A7A00E43B2F /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FE1357C1DCD4A7A00E43B2F /* ExternalAccessory.framework */; };
+		7FE1357E1DCD4DC000E43B2F /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8665931DCD2E8400702AF6 /* libZSDK_API.a */; };
+		7FE1357F1DCD4DC100E43B2F /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F8665931DCD2E8400702AF6 /* libZSDK_API.a */; };
+		7FE135801DCD4DD500E43B2F /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A31DCD2EAE00702AF6 /* PrinterManager.swift */; };
+		7FE135811DCD4DD500E43B2F /* ZPLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A41DCD2EAE00702AF6 /* ZPLHelper.swift */; };
+		7FE135821DCD4DD500E43B2F /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A71DCD2EAE00702AF6 /* YPDrawSignatureView.swift */; };
+		7FE135831DCD4DD500E43B2F /* PrinterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A31DCD2EAE00702AF6 /* PrinterManager.swift */; };
+		7FE135841DCD4DD500E43B2F /* ZPLHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A41DCD2EAE00702AF6 /* ZPLHelper.swift */; };
+		7FE135851DCD4DD500E43B2F /* YPDrawSignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665A71DCD2EAE00702AF6 /* YPDrawSignatureView.swift */; };
+		7FE135861DCD4DDA00E43B2F /* SignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B91DCD2F2800702AF6 /* SignatureView.swift */; };
+		7FE135871DCD4DDA00E43B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665651DCD2E4400702AF6 /* AppDelegate.swift */; };
+		7FE135881DCD4DDB00E43B2F /* SignatureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B91DCD2F2800702AF6 /* SignatureView.swift */; };
+		7FE135891DCD4DDB00E43B2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665651DCD2E4400702AF6 /* AppDelegate.swift */; };
+		7FE1358A1DCD4DE100E43B2F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AD1DCD2ED400702AF6 /* UserData.swift */; };
+		7FE1358B1DCD4DE100E43B2F /* RouteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AE1DCD2ED400702AF6 /* RouteObject.swift */; };
+		7FE1358C1DCD4DE100E43B2F /* InventoryMGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AF1DCD2ED400702AF6 /* InventoryMGMT.swift */; };
+		7FE1358D1DCD4DE100E43B2F /* RetailerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B01DCD2ED400702AF6 /* RetailerObject.swift */; };
+		7FE1358E1DCD4DE100E43B2F /* BrandObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B11DCD2ED400702AF6 /* BrandObject.swift */; };
+		7FE1358F1DCD4DE100E43B2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B71DCD2EDF00702AF6 /* Extensions.swift */; };
+		7FE135901DCD4DE100E43B2F /* PrototypeRetailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665BB1DCD2FA500702AF6 /* PrototypeRetailer.swift */; };
+		7FE135911DCD4DE200E43B2F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AD1DCD2ED400702AF6 /* UserData.swift */; };
+		7FE135921DCD4DE200E43B2F /* RouteObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AE1DCD2ED400702AF6 /* RouteObject.swift */; };
+		7FE135931DCD4DE200E43B2F /* InventoryMGMT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665AF1DCD2ED400702AF6 /* InventoryMGMT.swift */; };
+		7FE135941DCD4DE200E43B2F /* RetailerObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B01DCD2ED400702AF6 /* RetailerObject.swift */; };
+		7FE135951DCD4DE200E43B2F /* BrandObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B11DCD2ED400702AF6 /* BrandObject.swift */; };
+		7FE135961DCD4DE200E43B2F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665B71DCD2EDF00702AF6 /* Extensions.swift */; };
+		7FE135971DCD4DE200E43B2F /* PrototypeRetailer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8665BB1DCD2FA500702AF6 /* PrototypeRetailer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +74,6 @@
 /* Begin PBXFileReference section */
 		7F8665621DCD2E4400702AF6 /* SkynetReceiptPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkynetReceiptPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8665651DCD2E4400702AF6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7F8665671DCD2E4400702AF6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F86656A1DCD2E4400702AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F86656C1DCD2E4400702AF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F86656F1DCD2E4400702AF6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +84,21 @@
 		7F8665811DCD2E4400702AF6 /* SkynetReceiptPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SkynetReceiptPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F8665851DCD2E4400702AF6 /* SkynetReceiptPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkynetReceiptPrototypeUITests.swift; sourceTree = "<group>"; };
 		7F8665871DCD2E4400702AF6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F8665931DCD2E8400702AF6 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libZSDK_API.a; sourceTree = "<group>"; };
+		7F8665941DCD2E8400702AF6 /* SkynetMk4a-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SkynetMk4a-Bridging-Header.h"; sourceTree = "<group>"; };
+		7F8665A31DCD2EAE00702AF6 /* PrinterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrinterManager.swift; sourceTree = "<group>"; };
+		7F8665A41DCD2EAE00702AF6 /* ZPLHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZPLHelper.swift; sourceTree = "<group>"; };
+		7F8665A71DCD2EAE00702AF6 /* YPDrawSignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YPDrawSignatureView.swift; sourceTree = "<group>"; };
+		7F8665AD1DCD2ED400702AF6 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		7F8665AE1DCD2ED400702AF6 /* RouteObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteObject.swift; sourceTree = "<group>"; };
+		7F8665AF1DCD2ED400702AF6 /* InventoryMGMT.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InventoryMGMT.swift; sourceTree = "<group>"; };
+		7F8665B01DCD2ED400702AF6 /* RetailerObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RetailerObject.swift; sourceTree = "<group>"; };
+		7F8665B11DCD2ED400702AF6 /* BrandObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandObject.swift; sourceTree = "<group>"; };
+		7F8665B71DCD2EDF00702AF6 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		7F8665B91DCD2F2800702AF6 /* SignatureView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignatureView.swift; sourceTree = "<group>"; };
+		7F8665BB1DCD2FA500702AF6 /* PrototypeRetailer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrototypeRetailer.swift; sourceTree = "<group>"; };
+		7FE1357C1DCD4A7A00E43B2F /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		7FE135B01DCD59A700E43B2F /* SkynetReceiptPrototype.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SkynetReceiptPrototype.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE1357D1DCD4A7A00E43B2F /* ExternalAccessory.framework in Frameworks */,
+				7F86659E1DCD2E8400702AF6 /* libZSDK_API.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +115,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE1357E1DCD4DC000E43B2F /* libZSDK_API.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +123,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE1357F1DCD4DC100E43B2F /* libZSDK_API.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,10 +133,13 @@
 		7F8665591DCD2E4400702AF6 = {
 			isa = PBXGroup;
 			children = (
+				7F8665931DCD2E8400702AF6 /* libZSDK_API.a */,
+				7F8665941DCD2E8400702AF6 /* SkynetMk4a-Bridging-Header.h */,
 				7F8665641DCD2E4400702AF6 /* SkynetReceiptPrototype */,
 				7F8665791DCD2E4400702AF6 /* SkynetReceiptPrototypeTests */,
 				7F8665841DCD2E4400702AF6 /* SkynetReceiptPrototypeUITests */,
 				7F8665631DCD2E4400702AF6 /* Products */,
+				7FE1357B1DCD4A7900E43B2F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,8 +156,11 @@
 		7F8665641DCD2E4400702AF6 /* SkynetReceiptPrototype */ = {
 			isa = PBXGroup;
 			children = (
-				7F8665651DCD2E4400702AF6 /* AppDelegate.swift */,
-				7F8665671DCD2E4400702AF6 /* ViewController.swift */,
+				7FE135B01DCD59A700E43B2F /* SkynetReceiptPrototype.entitlements */,
+				7FE135791DCD49D500E43B2F /* Logic */,
+				7FE1357A1DCD49DC00E43B2F /* Implementation */,
+				7FE135781DCD490200E43B2F /* Data Structures */,
+				7F8665BB1DCD2FA500702AF6 /* PrototypeRetailer.swift */,
 				7F8665691DCD2E4400702AF6 /* Main.storyboard */,
 				7F86656C1DCD2E4400702AF6 /* Assets.xcassets */,
 				7F86656E1DCD2E4400702AF6 /* LaunchScreen.storyboard */,
@@ -123,6 +185,46 @@
 				7F8665871DCD2E4400702AF6 /* Info.plist */,
 			);
 			path = SkynetReceiptPrototypeUITests;
+			sourceTree = "<group>";
+		};
+		7FE135781DCD490200E43B2F /* Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+				7F8665AD1DCD2ED400702AF6 /* UserData.swift */,
+				7F8665AE1DCD2ED400702AF6 /* RouteObject.swift */,
+				7F8665AF1DCD2ED400702AF6 /* InventoryMGMT.swift */,
+				7F8665B01DCD2ED400702AF6 /* RetailerObject.swift */,
+				7F8665B11DCD2ED400702AF6 /* BrandObject.swift */,
+				7F8665B71DCD2EDF00702AF6 /* Extensions.swift */,
+			);
+			name = "Data Structures";
+			sourceTree = "<group>";
+		};
+		7FE135791DCD49D500E43B2F /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				7F8665A31DCD2EAE00702AF6 /* PrinterManager.swift */,
+				7F8665A41DCD2EAE00702AF6 /* ZPLHelper.swift */,
+				7F8665A71DCD2EAE00702AF6 /* YPDrawSignatureView.swift */,
+			);
+			name = Logic;
+			sourceTree = "<group>";
+		};
+		7FE1357A1DCD49DC00E43B2F /* Implementation */ = {
+			isa = PBXGroup;
+			children = (
+				7F8665B91DCD2F2800702AF6 /* SignatureView.swift */,
+				7F8665651DCD2E4400702AF6 /* AppDelegate.swift */,
+			);
+			name = Implementation;
+			sourceTree = "<group>";
+		};
+		7FE1357B1DCD4A7900E43B2F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FE1357C1DCD4A7A00E43B2F /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +297,14 @@
 						CreatedOnToolsVersion = 8.1;
 						DevelopmentTeam = 7XYDSK628M;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.WAC = {
+								enabled = 1;
+							};
+						};
 					};
 					7F8665751DCD2E4400702AF6 = {
 						CreatedOnToolsVersion = 8.1;
@@ -262,7 +372,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F8665681DCD2E4400702AF6 /* ViewController.swift in Sources */,
+				7F8665BC1DCD2FA500702AF6 /* PrototypeRetailer.swift in Sources */,
+				7F8665A81DCD2EAE00702AF6 /* PrinterManager.swift in Sources */,
+				7F8665A91DCD2EAE00702AF6 /* ZPLHelper.swift in Sources */,
+				7F8665B21DCD2ED400702AF6 /* UserData.swift in Sources */,
+				7F8665AC1DCD2EAE00702AF6 /* YPDrawSignatureView.swift in Sources */,
+				7F8665B41DCD2ED400702AF6 /* InventoryMGMT.swift in Sources */,
+				7F8665B81DCD2EDF00702AF6 /* Extensions.swift in Sources */,
+				7F8665B31DCD2ED400702AF6 /* RouteObject.swift in Sources */,
+				7F8665B51DCD2ED400702AF6 /* RetailerObject.swift in Sources */,
+				7F8665B61DCD2ED400702AF6 /* BrandObject.swift in Sources */,
+				7F8665BA1DCD2F2800702AF6 /* SignatureView.swift in Sources */,
 				7F8665661DCD2E4400702AF6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +391,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE135871DCD4DDA00E43B2F /* AppDelegate.swift in Sources */,
+				7FE135821DCD4DD500E43B2F /* YPDrawSignatureView.swift in Sources */,
+				7FE1358C1DCD4DE100E43B2F /* InventoryMGMT.swift in Sources */,
+				7FE1358B1DCD4DE100E43B2F /* RouteObject.swift in Sources */,
+				7FE1358A1DCD4DE100E43B2F /* UserData.swift in Sources */,
+				7FE135801DCD4DD500E43B2F /* PrinterManager.swift in Sources */,
+				7FE135861DCD4DDA00E43B2F /* SignatureView.swift in Sources */,
+				7FE1358F1DCD4DE100E43B2F /* Extensions.swift in Sources */,
+				7FE1358E1DCD4DE100E43B2F /* BrandObject.swift in Sources */,
+				7FE135901DCD4DE100E43B2F /* PrototypeRetailer.swift in Sources */,
 				7F86657B1DCD2E4400702AF6 /* SkynetReceiptPrototypeTests.swift in Sources */,
+				7FE1358D1DCD4DE100E43B2F /* RetailerObject.swift in Sources */,
+				7FE135811DCD4DD500E43B2F /* ZPLHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,7 +411,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FE135891DCD4DDB00E43B2F /* AppDelegate.swift in Sources */,
+				7FE135851DCD4DD500E43B2F /* YPDrawSignatureView.swift in Sources */,
+				7FE135931DCD4DE200E43B2F /* InventoryMGMT.swift in Sources */,
+				7FE135921DCD4DE200E43B2F /* RouteObject.swift in Sources */,
+				7FE135911DCD4DE200E43B2F /* UserData.swift in Sources */,
+				7FE135831DCD4DD500E43B2F /* PrinterManager.swift in Sources */,
+				7FE135881DCD4DDB00E43B2F /* SignatureView.swift in Sources */,
+				7FE135961DCD4DE200E43B2F /* Extensions.swift in Sources */,
+				7FE135951DCD4DE200E43B2F /* BrandObject.swift in Sources */,
+				7FE135971DCD4DE200E43B2F /* PrototypeRetailer.swift in Sources */,
 				7F8665861DCD2E4400702AF6 /* SkynetReceiptPrototypeUITests.swift in Sources */,
+				7FE135941DCD4DE200E43B2F /* RetailerObject.swift in Sources */,
+				7FE135841DCD4DD500E43B2F /* ZPLHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +507,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "SkynetMK4a-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -404,6 +549,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OBJC_BRIDGING_HEADER = "SkynetMK4a-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -413,9 +559,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkynetReceiptPrototype/SkynetReceiptPrototype.entitlements;
 				DEVELOPMENT_TEAM = 7XYDSK628M;
 				INFOPLIST_FILE = SkynetReceiptPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobc.SkynetReceiptPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -426,9 +577,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SkynetReceiptPrototype/SkynetReceiptPrototype.entitlements;
 				DEVELOPMENT_TEAM = 7XYDSK628M;
 				INFOPLIST_FILE = SkynetReceiptPrototype/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobc.SkynetReceiptPrototype;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -443,6 +599,10 @@
 				DEVELOPMENT_TEAM = 7XYDSK628M;
 				INFOPLIST_FILE = SkynetReceiptPrototypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobc.SkynetReceiptPrototypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -458,6 +618,10 @@
 				DEVELOPMENT_TEAM = 7XYDSK628M;
 				INFOPLIST_FILE = SkynetReceiptPrototypeTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobc.SkynetReceiptPrototypeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -472,6 +636,10 @@
 				DEVELOPMENT_TEAM = 7XYDSK628M;
 				INFOPLIST_FILE = SkynetReceiptPrototypeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobc.SkynetReceiptPrototypeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -486,6 +654,10 @@
 				DEVELOPMENT_TEAM = 7XYDSK628M;
 				INFOPLIST_FILE = SkynetReceiptPrototypeUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.lobc.SkynetReceiptPrototypeUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -512,6 +684,7 @@
 				7F86658C1DCD2E4400702AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F86658D1DCD2E4400702AF6 /* Build configuration list for PBXNativeTarget "SkynetReceiptPrototypeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +693,7 @@
 				7F86658F1DCD2E4400702AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7F8665901DCD2E4400702AF6 /* Build configuration list for PBXNativeTarget "SkynetReceiptPrototypeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +702,7 @@
 				7F8665921DCD2E4400702AF6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
